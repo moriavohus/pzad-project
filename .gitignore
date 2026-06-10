@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Jupyter Book build
+_build/
+
+# Большие исходные данные — НЕ коммитим (дашборд их не читает, читает только cache/).
+# Если когда-нибудь решишь пересчитывать prepare.py на Cloud — убери из ignore.
+electric-data/
+data_insulin/
+
+# ВАЖНО: kt4/cache/ НЕ игнорируем — артефакты нужны дашборду на Streamlit Cloud.
