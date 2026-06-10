@@ -31,3 +31,4 @@ pip install torch numpy pandas matplotlib scikit-learn statsmodels tqdm ucimlrep
 
 - [Tzen & Raginsky (2019) — Latent SDEs](https://arxiv.org/abs/1905.09883)
 - [Проект на GitHub Pages](https://moriavohus.github.io/neural-sde-project/)
+# pzad-project
