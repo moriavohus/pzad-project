@@ -28,7 +28,9 @@ jobs:
           python-version: "3.11"
 
       - name: Install Jupyter Book
-        run: pip install jupyter-book
+        # Фиксируем v1: pip install jupyter-book тянет 2.x (другой инструмент на MyST),
+        # несовместимый с классическими _config.yml + _toc.yml.
+        run: pip install "jupyter-book==1.0.4.post1"
 
       - name: Build the book
         run: jupyter-book build .
